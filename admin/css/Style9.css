@@ -1,0 +1,118 @@
+nav{
+    padding: 20px 20px 20px 20px;
+    background-color:#7b7a87;
+    border-radius: 4px;
+    position:fixed;
+    top:0;
+    width:98%;   
+}
+nav a{
+    padding:10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family:sans-serif;
+    color:white;
+}
+nav a:hover{
+    background-color: rgba(255,255,255,0.6);
+    border-radius:4px;
+}
+body{
+   background-color: #f5f5f5
+}
+#content-table{
+    background-color:white;
+    font-size:17px;
+    width:90%;
+    padding:20px;
+    border:solid;
+    border-color: black;
+    line-height: 40px;
+    justify-content: center;
+}
+#content-table a{
+    text-decoration: none;
+    padding:10px;
+    background-color:rgba(247, 0, 124, 1);
+    color:white;
+    border-radius:3px;
+}
+td{
+  text-align: center;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  .dropdown .dropbtn {
+    font-size: 20px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+  display:block;
+  color:black;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  #button{
+    padding:10px;
+    background-color: rgba(247, 0, 124, 1);
+    color:white;
+    text-align: center;
+    border:none;
+    margin:30px 0px;
+}
+#box{
+  width:40%;
+border:solid;
+margin-top:130px;
+}
+input{
+  border: solid 0.5px rgba(128, 128, 128, 0.363);
+  height: 50px;
+  color:grey;
+  
+  margin-bottom: 40px;
+  border-radius: 4px;
+  font-size:20px;
+  width:90%;
+}
+textarea{
+  width:37%;
+  height:50px;
+  margin-left:20px;
+  border: solid 0.5px rgba(128, 128, 128, 0.363);
+}
+
+#login-form{
+  margin: 60px 60px;
+justify-content: center;
+padding: 10px;
+background-color: white;
+width: 400px;
+border:solid;
+
+}
+a{
+  text-decoration: none;
+  border-radius:4px;
+}

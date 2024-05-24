@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Add Vehicle</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1>Add Vehicle</h1>
+	<form id="add-vehicle-form">
+		<table>
+			<tr>
+				<td>Vehicle Title:</td>
+				<td><input type="text" id="vehicletitle" required></td>
+			</tr>
+			<tr>
+				<td>Select Brand:</td>
+				<td>
+					<select id="brandname" required>
+						<option value="">Select</option>
+						<!-- populate brands from database -->
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Vehicle Overview:</td>
+				<td><textarea id="vehicalorcview" rows="3" required></textarea></td>
+			</tr>
+			<tr>
+				<td>Price Per Day (INR):</td>
+				<td><input type="text" id="priceperday" required></td>
+			</tr>
+			<tr>
+				<td>Select Fuel Type:</td>
+				<td>
+					<select id="fueltype" required>
+						<option value="">Select</option>
+						<option value="Petrol">Petrol</option>
+						<option value="Diesel">Diesel</option>
+						<option value="CNG">CNG</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Model Year:</td>
+				<td><input type="text" id="modelyear" required></td>
+			</tr>
+			<tr>
+				<td>Seating Capacity:</td>
+				<td><input type="text" id="seatingcapacity" required></td>
+			</tr>
+			<tr>
+				<td>Upload Images:</td>
+				<td>
+					<input type="file" id="img1" required>
+					<input type="file" id="img2" required>
+					<input type="file" id="img3" required>
+					<!-- add more image fields as needed -->
+				</td>
+			</tr>
+			<tr>
+				<td>Accessories:</td>
+				<td>
+					<input type="checkbox" id="airconditioner" value="1">
+					<label for="airconditioner">Air Conditioner</label>
+					<input type="checkbox" id="powerdoorlocks" value="1">
+					<label for="powerdoorlocks">Power Door Locks</label>
+					<!-- add more accessory fields as needed -->
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<button id="cancel" type="reset">Cancel</button>
+					<button id="submit" type="submit">Save changes</button>
+				</td>
+			</tr>
+		</table>
+	</form>
+
+	<script src="script.js"></script>
+</body>
+</html>

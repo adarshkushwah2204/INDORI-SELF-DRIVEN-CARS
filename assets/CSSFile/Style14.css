@@ -1,0 +1,383 @@
+
+nav{
+    padding: 10px 10px 0px 10px;
+    background-color:rgba(247, 0, 124, 1);
+    border-radius: 4px;
+    position:fixed;
+    top:0;
+    width:98%;   
+}
+nav a{
+    padding:10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family:sans-serif;
+    color:white;
+}
+nav a:hover{
+    background-color: rgba(255,255,255,0.6);
+    border-radius:4px;
+}
+
+
+#right-side{
+   float:  right;
+}
+body{
+   background-color:#f5f5f5;
+}
+
+
+#category-3{
+    margin:0px 9px;
+    padding:5px;
+    justify-content: center;
+    background-color:mintcream;
+    text-align: center;
+    border-radius:4px;
+    box-shadow:0px 2px 8px 0px rgb(0,0,0,0.0);
+    transition:margin 0.2s;
+}
+#category-1:hover{
+    border:black 2px;
+    box-shadow:0px 2px 8px 0px rgba(247, 0, 124, 1);
+}
+
+
+
+#table-head{
+    background-color:#00d4ff;
+    border-radius:10px;
+     
+}
+
+#big-pic{
+    height: 400px;
+    width:380px;
+    margin-top: 20px;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+ #outerbox{
+            background-image: linear-gradient( 68.4deg,  rgba(99,251,215,1) -0.4%, rgba(5,222,250,1) 100.2% );
+            background-size: 120%;
+            background-repeat: no-repeat;
+            width:60%;  
+            padding: 30px;
+            color:black;
+            border-radius:10px;
+            margin:4%;
+            display:flex;
+            flex-wrap: wrap;
+            border-style:solid;
+            
+ }     
+            #sidebar{
+                height:100%;
+                width:20%;
+            }
+                     p{
+                        color:rgba(247, 0, 124, 0.9);
+                        font-size:25px;
+                        font-weight:300;
+                        margin-top:15px;
+                    }
+                    #MRP{
+                        text-decoration:line-through;
+                        }
+                        #discount{
+                            
+                            text-decoration: none;
+                        }
+                    #items:hover{
+                       
+                        border-radius:6px;
+                        box-shadow: 1px 2px 10px 4px #75dcff ;
+                                     }
+                                     
+            
+
+
+               .banner-section {
+                background-image: url("../images/Ertiga2.jpg");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                padding: 140px 0;
+                
+                text-align: center;
+                font-size: 20px;
+                color: white;
+              }
+              .banner-section-2 {
+                background-image: url("../images/audi.jpg");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                padding: 40px 0;
+                
+                text-align: center;
+                font-size: 20px;
+                color: white;
+              }
+              #banner-text{
+                  background-color: rgba(0,0,0,0.7);
+                  padding:10px;
+              }
+               
+               #quotes{
+                   text-align: center;
+                   font-size:25px;
+                   padding: 4%;
+                   font-family:Roboto Slab;
+                   margin:0px 50px;
+               }
+               
+               #quotes p{
+                   color:grey;
+                   font-size: large;
+               }
+
+             #board{
+               background-color:#FF1700;
+               border-radius: 10px;
+               align-self: center;
+               width:fit-content;
+               padding: 10px;
+               color:white;
+               font-size: 25px;
+             }
+             
+             #innerbox-1{
+                 margin:20px;
+                 background-color: white;
+                 border-color: black;
+                 width:22%;
+                padding-bottom:2%;
+             }
+             #innerbox-2{
+                margin:10px;
+                background-color: white;
+                border-color: black;
+                width:27%;                
+               padding-bottom:2%;
+            }
+             #category-indexpage{
+                display: flex;
+                flex-direction:row;
+                flex-wrap:wrap;
+                margin:0% 1%;
+                justify-content:center;
+              border: 2px solid black;
+              padding:0%;
+              border: none;
+              background-color:#f5f5f5;
+              width:95%;
+            }  
+             #category-listpage{
+                display: flex;
+                flex-direction:row;
+                flex-wrap:wrap;
+                margin-left:100px;
+                justify-content:right;
+              border: 2px solid black;
+              padding:0%;
+              border: none;
+              background-color:#f5f5f5;
+              width:80%;
+            }  
+             #category-searchpage{
+                display: flex;
+                
+                flex-wrap:wrap;
+                margin:0% 1%;
+                
+              border: 2px solid black;
+              padding:0%;
+              border: none;
+              justify-content: center;
+              width:80%;
+            }
+           
+         
+
+            img{
+                height:200px;
+                width:100%;
+                background-color: white;
+                border-radius: 0px;
+                margin-top:0px;
+               }
+
+               #background{
+              
+                width:100%;
+                padding:2px 2px;
+                color:black;  
+            }
+
+            #footer a, #footer h2, #footer h3{
+                font-size:20px;
+                text-align: left;
+                color:white;
+            
+            }
+            #footer{
+            background-color: rgb(78, 59, 59);
+            padding:20px;
+            line-height: 20px;
+            }
+            #heading{
+            font-size:30px;
+            padding-top: 4%;
+            font-family:Roboto Slab;
+            }
+            #query-form{
+                color:rgba(0,0,0,0.7);
+                background-color:ECECEC;
+                padding: 1% 2%;
+                width:70%;
+                margin:50px;
+                font-size:small;
+                font-weight: bolder;
+            }
+            #query-form input{
+                border: solid 0.5px rgba(128, 128, 128, 0.363);
+                width:90%;
+                height: 50px;
+                color:grey;
+                margin-left: 20px;
+                margin-bottom: 40px;
+                border-radius: 4px;
+
+            }
+            textarea{
+                width:30%;
+                margin-left:20px;
+                border: solid 0.5px rgba(128, 128, 128, 0.363);
+            }
+            #button{
+                padding:10px;
+                background-color: rgba(247, 0, 124, 1);
+                color:white;
+                text-align: center;
+                border:none;
+                margin:30px 0px;
+            }
+            #page-view{
+                display:block;
+            flex-wrap: wrap;
+            margin:0px 10px;
+            }
+            #filter{
+                background-color: white;
+                padding:15px;
+                font-size: 20px;
+                width:15%;
+                border-radius: 5px;
+                margin-left:40px;
+                color:rgba(247, 0, 124, 0.9);
+                
+                position:fixed;
+                
+            }
+            #booking-form {
+                margin: 60px 60px;
+                padding: 10px;
+                background-color: white;
+                width: 25%;
+                position: absolute;
+                right: 0;
+            }
+            
+            #login-form {
+                margin: 60px 60px;
+                padding: 10px;
+                background-color: white;
+                width: 400px;
+            }
+            
+            #booking-form textarea {
+                font-size: 18px;
+                font-weight: 400;
+                width: 80%;
+                height: 90px;
+                margin: 20px;
+                background-color: mintcream;
+                border-radius: 4px;
+            }
+            
+            select,
+            input {
+                font-size: 18px;
+                font-weight: 400;
+                width: 80%;
+                height: 40px;
+                margin: 20px;
+                padding: 10px;
+                background-color: mintcream;
+                border-radius: 4px;
+            }
+            ;
+            }
+            #contactus{
+                width:50%;
+            }
+            #side-by-side{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            #content-table{
+                background-color:white;
+                font-size:17px;
+                width:90%;
+                padding:20px;
+                border:solid;
+                border-color: black;
+                line-height: 40px;
+                justify-content: center;
+            }
+            #content-table a{
+                text-decoration: none;
+                padding:10px;
+                background-color:rgba(247, 0, 124, 1);
+                color:white;
+                border-radius:3px;
+            }
+
+            .dropdown {
+                float: left;
+                overflow: hidden;
+              }
+              .dropdown .dropbtn {
+                font-size: 20px;  
+                border: none;
+                outline: none;
+                color: white;
+                padding: 14px 16px;
+                background-color: inherit;
+                font-family: inherit;
+                
+              }
+              
+              .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: #f9f9f9;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+              }
+              
+              .dropdown-content a {
+              display:block;
+              color:black;
+              }
+              
+              .dropdown:hover .dropdown-content {
+                display: block;
+              }

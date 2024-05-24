@@ -1,0 +1,65 @@
+:root {
+    --border-color: #ddd;
+    --input-padding: 10px;
+    --input-margin: 10px 0;
+    --input-border-width: 1px;
+    --input-border-style: solid;
+    --input-border-color: var(--border-color);
+    --input-background-color: #fff;
+    --input-color: #333;
+    --button-background-color: #4CAF50;
+    --button-color: #fff;
+    --button-padding: 10px 20px;
+    --button-border-radius: 5px;
+    --button-hover-background-color: #3e8e41;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th,
+  td {
+    border: var(--input-border-width) solid var(--border-color);
+    padding: var(--input-padding);
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f0f0f0;
+  }
+  
+  input[type="text"],
+  textarea,
+  select {
+    width: 100%;
+    padding: var(--input-padding);
+    margin: var(--input-margin);
+    border: var(--input-border-width) solid var(--input-border-color);
+    background-color: var(--input-background-color);
+    color: var(--input-color);
+  }
+  
+  input[type="file"] {
+    margin: var(--input-margin);
+  }
+  
+  button[type="submit"],
+  button[type="reset"] {
+    background-color: var(--button-background-color);
+    color: var(--button-color);
+    padding: var(--button-padding);
+    border: none;
+    border-radius: var(--button-border-radius);
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover,
+  button[type="reset"]:hover {
+    background-color: var(--button-hover-background-color);
+  }
